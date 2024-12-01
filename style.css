@@ -1,0 +1,197 @@
+ /* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f8fb;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Header Section */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #4b6a9b;
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+  color: #5b4f9a;
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+
+h2, h3 {
+  text-align: center;
+  color: #6a83f1;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #ff6f61;
+}
+
+.navbar-brand {
+  color: black!important;
+  font-size: 24px;
+}
+
+.navbar-nav .nav-link {
+  color: black !important;
+  font-size: 18px;
+  padding: 15px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.navbar-toggler-icon {
+  background-color:black;
+}
+
+/* Hero Section Styles */
+.container-md {
+  background-color: #fff;
+  border-radius: 8px; /* Reduced border-radius */
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1); /* Reduced box-shadow */
+  padding: 20px; /* Reduced padding */
+  text-align: center;
+}
+
+
+h1.display-5 {
+  color: #5f6368;
+  font-weight: bold;
+}
+
+.lead {
+  color: #7f8c8d;
+  font-size: 18px;
+}
+
+img {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  margin-top: 30px;
+}
+
+/* Project Section */
+h2 {
+  color: #4b6a9b;
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 40px;
+}
+
+h6 {
+  color: #7f8c8d;
+  font-size: 16px;
+}
+
+.featurette {
+  margin-bottom: 40px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.featurette:hover {
+  transform: scale(1.02);
+}
+
+.featurette-heading {
+  color: #30475e;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.featurette p {
+  color: #556c77;
+  font-size: 17px;
+}
+
+img.img-fluid {
+  margin-top: 20px;
+}
+
+/* Skills Section */
+.container.marketing {
+  margin-top: 40px;
+}
+
+.col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.bd-placeholder-img {
+  background-color: #dcdfe1;
+  padding: 15px;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 15px;
+}
+
+.bd-placeholder-img:hover {
+  transform: scale(1.1);
+}
+
+h2.fw-normal {
+  color: #3f8c96;
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+p {
+  color: #7f8c8d;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+/* Button Styling */
+button.btn-outline-success {
+  background-color: #ff6f61;
+  color: white;
+  font-weight: 600;
+  border-radius: 25px;
+  padding: 12px 20px;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+
+button.btn-outline-success:hover {
+  background-color: #ff4e41;
+  border-color: #ff4e41;
+  color: #fff;
+}
+
+/* Footer Section */
+footer {
+  background-color: lightblue;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
